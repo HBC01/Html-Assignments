@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cards</title>
+    <style>
+      body {
+        display: contents;
+      }
+      .container {
+        display: flex;
+
+        justify-content: space-around;
+        gap: 20px;
+        background-color: rgb(12, 140, 179);
+        padding: 20px;
+      }
+      .card {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 8px;
+        width: 28%;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .card img {
+        width: 100%;
+        height: 50%;
+        border-bottom: 1px solid;
+      }
+      .card h1 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+      }
+      .card p {
+        font-size: 1em;
+        line-height: 1.5;
+        text-align: justify;
+        padding: 8px;
+      }
+      .card button {
+        padding: 8px;
+        border: 1px solid black;
+        background-color: aquamarine;
+        border-radius: 5px;
+        width: 40%;
+
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="park.jpg" alt="Card1" />
+
+        <h1>The Beautiful Park.</h1>
+        <p>
+          A park offers a peaceful escape with lush greenery, scenic trails, and
+          spaces for relaxation and recreation. Visitors can enjoy fresh air,
+          exercise, picnics, or simply unwind in nature. The vibrant natural
+          beauty and often unique landscapes provide a refreshing break from
+          daily routines, making it a perfect spot for families, friends, and
+          solo visitors alike. <br />
+          <button>More Pages</button>
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="car.jpg" alt="Card2" />
+
+        <h1>The Car Buyers</h1>
+        <p>
+          Buying a car offers freedom, convenience, and flexibility to travel on
+          your own schedule. It’s an investment in personal mobility, allowing
+          you to go wherever you need without relying on public transport. With
+          a car, you can explore new places, handle emergencies, and make life
+          more efficient. Plus, cars today offer a tech—that make every drive
+          enjoyable.<br />
+          <button>More Pages</button>
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="resturant.jpg" alt="Card3" />
+
+        <h1>The Restaurant Vist</h1>
+        <p>
+          Visiting a restaurant offers a chance to enjoy delicious,
+          expertly-prepared food in a relaxed setting, perfect for unwinding,
+          socializing, or celebrating. Restaurants bring variety, unique
+          flavors, and convenience—letting you skip cooking while experiencing
+          different cuisines. It’s a treat for the senses and a memorable way to
+          connect with friends, family, or colleagues.<br />
+          <button>More Pages</button>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
